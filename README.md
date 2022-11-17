@@ -6,6 +6,10 @@ A parallel force layout on GPU is proposed.
 
 This project aims to highlight the power of GPU parallel programming in network visualization.
 
+In this example in codesandbox, the layout only runs for a second to display this very large graph,
+the problem now is the interaction, which is slow for such large graphs
+https://codesandbox.io/s/suspicious-williams-qsc2wy?file=/src/App.tsx
+
 # Usage
 
 - install the library
