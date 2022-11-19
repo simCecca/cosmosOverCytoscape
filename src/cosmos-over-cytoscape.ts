@@ -1,5 +1,7 @@
 import Cosmos from "./algorithm/cosmos";
 
+export * from "./interfaces";
+
 // registers the extension on a cytoscape lib ref
 export default function register(cytoscape) {
   if (!cytoscape) {

@@ -1,18 +1,6 @@
-import CosmosAlgorithm, {
-  CAProps,
-  CosmosLayoutProps,
-} from "cosmos-over-every-tool";
-import { BaseLayoutOptions, Collection, Core } from "cytoscape";
-
-export interface CosmosCytoscape extends CAProps {
-  cy: Core;
-  eles: Collection;
-  name: string;
-}
-
-export interface CosmosCystoscapeLayoutOptions
-  extends BaseLayoutOptions,
-    CosmosLayoutProps {}
+import CosmosAlgorithm from "cosmos-over-every-tool";
+import { Core } from "cytoscape";
+import { CosmosCytoscape } from "../interfaces";
 
 function Cosmos(options: CosmosCytoscape) {
   this.default = {

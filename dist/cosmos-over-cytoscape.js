@@ -37,7 +37,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ register)\n/* harmony export */ });\n/* harmony import */ var _algorithm_cosmos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./algorithm/cosmos */ \"./src/algorithm/cosmos.ts\");\n\n// registers the extension on a cytoscape lib ref\nfunction register(cytoscape) {\n    if (!cytoscape) {\n        return;\n    } // can't register if cytoscape unspecified\n    cytoscape(\"layout\", \"cosmos\", _algorithm_cosmos__WEBPACK_IMPORTED_MODULE_0__[\"default\"]); // register with cytoscape.js\n}\nif (typeof window.cytoscape !== \"undefined\") {\n    register(window.cytoscape);\n}\n\n\n//# sourceURL=webpack://cosmos-over-cytoscape/./src/cosmos-over-cytoscape.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ register)\n/* harmony export */ });\n/* harmony import */ var _algorithm_cosmos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./algorithm/cosmos */ \"./src/algorithm/cosmos.ts\");\n/* harmony import */ var _interfaces__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./interfaces */ \"./src/interfaces.ts\");\n\n\n// registers the extension on a cytoscape lib ref\nfunction register(cytoscape) {\n    if (!cytoscape) {\n        return;\n    } // can't register if cytoscape unspecified\n    cytoscape(\"layout\", \"cosmos\", _algorithm_cosmos__WEBPACK_IMPORTED_MODULE_0__[\"default\"]); // register with cytoscape.js\n}\nif (typeof window.cytoscape !== \"undefined\") {\n    register(window.cytoscape);\n}\n\n\n//# sourceURL=webpack://cosmos-over-cytoscape/./src/cosmos-over-cytoscape.ts?");
+
+/***/ }),
+
+/***/ "./src/interfaces.ts":
+/*!***************************!*\
+  !*** ./src/interfaces.ts ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n\n\n\n//# sourceURL=webpack://cosmos-over-cytoscape/./src/interfaces.ts?");
 
 /***/ })
 

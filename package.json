@@ -1,6 +1,6 @@
 {
   "name": "cosmos-over-cytoscape",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/cosmos-over-cytoscape.js",
   "typings": "dist/src/cosmos-over-cytoscape.d.ts",
