@@ -33,7 +33,7 @@ cytoscape.use(cosmos);
 - layout props
 
 ```
-import { CosmosCystoscapeLayoutOptions } from "cosmos-over-cytoscape/dist/src/algorithm/cosmos";
+import { CosmosCystoscapeLayoutOptions } from "cosmos-over-cytoscape";
 
 const layoutProps: CosmosCystoscapeLayoutOptions = {
     name: "cosmos",
